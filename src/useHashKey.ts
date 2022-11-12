@@ -1,13 +1,13 @@
 import { useId } from "react"
 
 /**
- * @param key Number | String |
- * @param digits Number | default = 1
- * @param useRId Boolean | default = false
+ * @param key Number | String
+ * @param useRId Boolean | default = false | use useId() React 18+
+ * @param digits Number | default = 1 | if use number key 0.123 flag digits convert toFixed(digits: 1)
  * @returns Number 32bit integer
  * @example arr.map(ent => (<Component key={useHashKey(ent.title)})))
  */
-export const useHashKey = (key: string | number, digits = 1, useRId?: boolean) => {
+export const useHashKey = (key: string | number, useRId = false, digits = 1) => {
     let hash = 0, i: number, chr: number
     const str = typeof key === "number" ? (key << 1).toFixed(digits) : key
     if (str.length === 0) {
