@@ -1,0 +1,5 @@
+# Generated folders
+node_modules
+.idea
+dist
+yarn.lock*

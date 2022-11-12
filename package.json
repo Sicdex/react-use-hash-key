@@ -1,0 +1,40 @@
+{
+  "name": "react-use-hash-key",
+  "version": "1.0.0",
+  "description": "Generate unique key for many components.",
+  "main": "dist/useHashKey.js",
+  "scripts": {
+    "build:watch": "tsc --watch",
+    "build:check": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "usehashkey",
+    "mapkey",
+    "generatekey",
+    "performance",
+    "optimization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sicdex/react-use-hash-key.git"
+  },
+  "author": "Andrei (SicdeX)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sicdex/react-use-hash-key/issues"
+  },
+  "homepage": "https://github.com/Sicdex/react-use-hash-key#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "typescript": "^4.1.3"
+  }
+}
