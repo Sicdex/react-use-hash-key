@@ -1,6 +1,6 @@
 {
   "name": "react-use-hash-key",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate unique key for many components.",
   "main": "dist/useHashKey.js",
   "scripts": {
